@@ -3,9 +3,9 @@
 Python-based web vulnerability scanner that audits security headers, cookies, and common attack vectors — generating detailed markdown remediation reports.
 
 ## Features
-- [ ] Security header analysis
-- [ ] SQL injection detection
-- [ ] XSS vulnerability probing
+- [x] Security header analysis
+- [x] Cookie security audit
+- [x] Markdown report generation
 - [ ] Open directory detection
 - [ ] Cookie security audit
 
@@ -16,6 +16,8 @@ Python, Requests, BeautifulSoup4
 python main.py --url https://example.com --output report.md
 
 ## Sample Report
+![Sample Report](assets/sample-report.png)
+
 ## Sample Report
 
 **DigSecure Scan Report**
